@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean class="spSpring1.student" name="std1">
+		<property name="name" value="dewansh vishwakarma"></property>
+		<property name="roll" value="79"></property>  
+		<property name="subjects">
+			<list>
+				<value>java</value>
+				<value>c++</value>
+			</list>
+		</property>  
+		
+		<property name="submarksMap">
+			<map>
+				<entry key="math" value="100"/>
+			</map>
+		</property>
+    </bean>
+
+</beans>
