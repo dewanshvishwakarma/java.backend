@@ -1,3 +1,6 @@
+spring core(MAVEN)
+day 7 sep 2026
+
 => Maven :-
 	-> Maven is a powerful open-source "Project Automation Build Tool" i.e. it automates everything related to the building of project
 	-> Maven was developed by Jason van Zyl which was intially released in July 2004. Jason van Zyl founded the Apache Maven Project (Jakarta Turbine Project) which was later taken by Apache Software Foundation
