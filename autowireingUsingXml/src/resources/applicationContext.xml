@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- using an by type and by name -->
+  <!--  <bean  class="in.sp.DI1.Addresh" name="addresh">
+    	<property name="houseno" value="91"></property>
+    	<property name="city" value="bhopal"></property>
+    	<property name="pin" value="462026"></property>
+    </bean>
+    
+    <bean  class="in.sp.DI1.student" name="std1" autowire="byName">
+    	<property name="name" value="sanajan"></property>
+    	<property name="roll" value="123"></property>
+    	 
+    </bean> -->
+    
+    <bean  class="in.sp.DI1.Addresh" name="add1">
+    	<property name="houseno" value="91"></property>
+    	<property name="city" value="bhopal"></property>
+    	<property name="pin" value="462026"></property>
+    </bean>
+    
+    <bean  class="in.sp.DI1.student" name="std1" autowire="byType">
+    	<property name="name" value="sanajan"></property>
+    	<property name="roll" value="123"></property>
+    	 
+    </bean>
+
+</beans>
+
